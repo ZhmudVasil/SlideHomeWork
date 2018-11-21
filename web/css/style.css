@@ -1,0 +1,73 @@
+ body{
+ 	margin: 0;
+ 	padding: 0;
+ 	background: url(..//img/background.png) 100% no-repeat;
+ 	background-size: cover;
+ }
+ .main__h3{
+ 	font-family: Poppins;
+	color:  #303030;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 19.17px;
+	text-align: center;
+	letter-spacing: 2px;
+ }
+ .main__h1{
+ 	font-family: Poppins;
+	color:  #000000;
+	font-size: 86px;
+	font-weight: 700;
+	line-height: 90px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 80px;
+ }
+ .rectangle{
+ 	position: absolute;
+ 	z-index: 2;
+ }
+ .rec2{
+ 	top: 50px;
+ 	right: 33%;
+ }
+ .rec1{
+ 	top: 300px;
+ 	left: 20%;
+ }
+ .main{
+ 	width: 60%;
+ 	margin: 80px 22%;
+ }
+ .slide{
+  	width: 440px !important;
+ 	height: 400px;
+ 	margin: 25px 50px;
+ }
+ .slider__child1{
+ 	background: url(..//img/magazine.png);
+ }
+ .slider__child2{
+ 	background: url(..//img/ligth.png);
+ }
+ .slider__child3{
+ 	background: url(..//img/velo.png);
+ }
+ .slider__child4{
+ 	background: url(..//img/fedFx.png) no-repeat;
+ }
+ .slick-prev{
+ 	z-index: 2;
+ 	position: absolute;
+ 	left: 100px;
+ 	width: 100px;
+ 	height: 100px;
+ }
+ .slick-next{
+ 	z-index: 2;
+ 	position: absolute;
+ 	right: 100px;
+ 	width: 100px;
+ 	height: 100px;
+ }
